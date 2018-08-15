@@ -19,6 +19,7 @@
   "homepage": "https://github.com/thomaszs/AiChatbot#readme",
   "dependencies": {
     "apiai": "^4.0.3",
+    "dotenv": "^6.0.0",
     "express": "^4.16.3",
     "socket.io": "^2.1.1"
   }
