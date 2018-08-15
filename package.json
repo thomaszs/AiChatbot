@@ -1,0 +1,25 @@
+{
+  "name": "AiChatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomaszs/AiChatbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomaszs/AiChatbot/issues"
+  },
+  "homepage": "https://github.com/thomaszs/AiChatbot#readme",
+  "dependencies": {
+    "apiai": "^4.0.3",
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  }
+}
