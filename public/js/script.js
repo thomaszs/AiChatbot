@@ -17,8 +17,6 @@ recognition.addEventListener('result', (e) => {
   let last = e.results.length - 1;
   let text = e.results[last][0].transcript;
 
-  console.log('Confidence: ' + e.results[0][0].confidence);
-
   socket.emit('chat message', text);
 });
 
